@@ -15,6 +15,7 @@ public class FacebookTest extends Base {
 	public void facebookTest() throws IOException, InterruptedException {
 		driver = initializeDriver();
 		driver.get("https://www.facebook.com/");
+		System.out.println("This is FB test");
 		Thread.sleep(2000);
 		driver.close();
 	}
