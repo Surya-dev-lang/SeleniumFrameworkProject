@@ -18,6 +18,7 @@ public class GoogleTest extends Base {
 		
 		driver = initializeDriver();
 		driver.get("https://www.google.com/");
+		System.out.println("This is google test");
 		Thread.sleep(2000);
 		Assert.assertTrue(false);
 		
